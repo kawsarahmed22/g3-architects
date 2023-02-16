@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+
 }
 
 body {
@@ -136,11 +137,12 @@ p {
     padding: 0 10px;
     width: 50%;
 }
+
 .main-feature-right {
     width: 50%;
 }
 
-.main-feature-left{
+.main-feature-left {
     padding-left: 10px;
     width: 50%;
 }
@@ -151,9 +153,30 @@ p {
     font-size: 45px;
 }
 
+.some-facts h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
 
+.facts {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
+.fact {
+    border: 1px solid #FF900E;
+    padding: 20px;
+    margin-right: 10px;
+    width: 241px;
+}
 
+.fact img {
+    width: 45.22px;
+    height: 34.31px;
+}
 
 
 
