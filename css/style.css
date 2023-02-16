@@ -127,7 +127,7 @@ p {
 }
 
 .feature-photo-left {
- width: 50%;
+    width: 50%;
 
 }
 
@@ -136,14 +136,20 @@ p {
     padding: 0 10px;
     width: 50%;
 }
+.main-feature-right {
+    width: 50%;
+}
+
+.main-feature-left{
+    padding-left: 10px;
+    width: 50%;
+}
 
 .feature-photo-right h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
 }
-
-
 
 
 
@@ -186,7 +192,16 @@ p {
 
 
     }
-    .feature-photo.flex{
+
+    .feature-photo.flex {
         flex-direction: column;
     }
+}
+
+
+.main-feature-left h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
 }
