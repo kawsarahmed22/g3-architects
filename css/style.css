@@ -27,12 +27,33 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
 }
- .container-full {
-    width: 100%;
- }
-
 
  .container {
-    width: 960px;
+    width: 1200px;
     margin: 0 auto;
+ }
+
+ .header-full {
+    background-color:rgba(255, 144, 14, 0.1);
+    
+
+ }
+ .header {
+    display: flex;
+    justify-content: space-between;
+
+ }
+.logo{
+    display: flex;
+    align-items: center;
+}
+ .menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+ }
+
+ .menu ul li {
+    margin-left: 20px;
  }
