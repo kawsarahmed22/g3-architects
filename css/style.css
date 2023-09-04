@@ -1,7 +1,7 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 
-
+/* common css */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,15 +28,13 @@ a {
     text-decoration: none;
 }
 
-h1,
-h2 {
-    font-weight: 300;
-    line-height: 1.2;
-    margin: 10px 0;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
 }
 
 p {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .container {
@@ -77,6 +75,12 @@ p {
     justify-content: space-between;
 }
 
+.logo {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
 .navbar {
     height: 70px;
 }
@@ -97,11 +101,19 @@ p {
 }
 
 
-.banner-top-info h1 {
-    font-style: normal;
+.banner-title {
     font-weight: 700;
     font-size: 3rem;
     color: #131313;
+    line-height: normal;
+    margin-top: 2rem;
+}
+
+.banner-description {
+    color: #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .banner-top-info {
@@ -191,14 +203,16 @@ p {
 
 
 .sponsors {
-width: 80%;
-text-align: center;
+    width: 80%;
+    text-align: center;
 }
+
 .sponsor {
-margin-right: 150px;
+    margin-right: 150px;
 }
+
 .sponsor img {
-width: 126px;
+    width: 126px;
 }
 
 footer {
